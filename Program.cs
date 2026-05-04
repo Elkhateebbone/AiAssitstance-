@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IAiService, AiService>();
 builder.Services.AddControllers();
 builder.Services.AddHttpClient();
+Console.WriteLine("hello");
+Console.WriteLine("login");
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
