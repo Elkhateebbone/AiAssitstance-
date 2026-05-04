@@ -24,5 +24,11 @@ namespace AIAssistant.Controllers
 
             return Ok(result);
         }
+        [HttpPost("hello")]
+        public async Task<IActionResult> Hello([FromBody] ErrorRequest request)
+        {
+
+            return Ok("hello");
+        }
     }
 }
