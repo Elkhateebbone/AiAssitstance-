@@ -8,6 +8,13 @@ builder.Services.AddControllers();
 builder.Services.AddHttpClient();
 Console.WriteLine("hello");
 Console.WriteLine("login");
+Console.WriteLine("register");
+Console.WriteLine("Payment");
+Console.WriteLine("Stripe");
+Console.WriteLine("Code");
+
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
