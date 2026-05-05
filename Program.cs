@@ -12,6 +12,7 @@ Console.WriteLine("register");
 Console.WriteLine("Payment");
 Console.WriteLine("Stripe");
 Console.WriteLine("Code");
+Console.WriteLine("restore");
 
 
 
